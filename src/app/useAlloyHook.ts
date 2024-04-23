@@ -11,7 +11,7 @@ const useAlloyHooks = () => {
   const [username, setUsername] = useState<string>("");
   const [errorMsg, setErrorMsg] = useState<string>("");
   const [token, setToken] = useState<string>("");
-  const [userId, setUserId] = useState<string>("6622a1914268110c7ca94986");
+  const [userId, setUserId] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
   const [connectSuccess, setConnectSuccess] = useState<boolean>(false);
   const [orders, setOrders] = useState([]);
